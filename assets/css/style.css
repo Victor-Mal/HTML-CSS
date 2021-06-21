@@ -1,10 +1,14 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(77, 77, 42);
     margin: 0;
     padding: 0;
 }
-.ar1 {
-    width: 50%;
+.ar1 { 
+    background-color: lightgoldenrodyellow;
+    width: 49%;
+    min-width: 591px;
+    float: left;
+    border:solid black 2px; 
 }
 .sec1 {
     background-color: dodgerblue;
@@ -40,4 +44,11 @@ body {
     display: inline-block;
     width: 39%;
     vertical-align: top;
+}
+.ar2 {
+    background-color: lightgoldenrodyellow;
+    border:solid black 2px; 
+    float: right;
+    width: 49%;
+    min-width: 591px
 }
