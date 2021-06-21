@@ -1,54 +1,57 @@
 body {
-    background-color: rgb(77, 77, 42);
-    margin: 0;
-    padding: 0;
+  background-color: rgb(77, 77, 42);
+  margin: 0;
+  padding: 0;
 }
-.ar1 { 
-    background-color: lightgoldenrodyellow;
-    width: 49%;
-    min-width: 591px;
-    float: left;
-    border:solid black 2px; 
+.ar1 {
+  display: inline-block;
+  background-color: lightgoldenrodyellow;
+  width: 49%;
+  min-width: 591px;
+  height: 100vh;
+  border: solid black 2px;
 }
-.sec1 {
-    background-color: dodgerblue;
-    border-bottom: solid black 5px;
-    height: 150px;
+.head {
+  background-color: dodgerblue;
+  border-bottom: solid black 5px;
+  height: 150px;
 }
 .port1 {
-    border: solid white 3px;
-    border-radius: 50%;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    object-position: top;
-    float: left;
+  border: solid white 3px;
+  border-radius: 50%;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  float: left;
 }
 .name {
-    text-align: center;
-    padding: 0 0 0 20%;
-    display: inline-block;
-    width: 50%;
-    font-size: 26px;
+  text-align: center;
+  padding: 0 0 0 20%;
+  display: inline-block;
+  width: 50%;
+  font-size: 26px;
 }
 .profession {
-    text-align: center;
-    padding: 0 0 0 20%;
-    display: inline-block;
-    width: 50%;
-    font-size: 20px;
+  text-align: center;
+  padding: 0 0 0 20%;
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
 }
 .column {
-    padding: 5%;
-    display: inline-block;
-    width: 39%;
-    vertical-align: top;
+  padding: 5%;
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
 }
 .ar2 {
-    background-color: lightgoldenrodyellow;
-    border:solid black 2px; 
-    float: right;
-    width: 49%;
-    min-width: 591px
+  background-color: lightgoldenrodyellow;
+  border: solid black 2px;
+  width: 49%;
+  display: inline-block;
+  min-width: 591px;
+  height: 100vh;
+  float: right;
 }
