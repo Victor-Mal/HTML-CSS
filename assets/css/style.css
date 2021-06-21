@@ -1,0 +1,43 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+}
+.ar1 {
+    width: 50%;
+}
+.sec1 {
+    background-color: dodgerblue;
+    border-bottom: solid black 5px;
+    height: 150px;
+}
+.port1 {
+    border: solid white 3px;
+    border-radius: 50%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+}
+.name {
+    text-align: center;
+    padding: 0 0 0 20%;
+    display: inline-block;
+    width: 50%;
+    font-size: 26px;
+}
+.profession {
+    text-align: center;
+    padding: 0 0 0 20%;
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+}
+.column {
+    padding: 5%;
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
